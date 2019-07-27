@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "dependencies": {
+    "parcel": "1.12.3",
+    "parcel-bundler": "https://github.com/arowM/parcel/archive/parcel-bundler@1.12.4.tar.gz",
+    "postcss-cli": "6.1.3",
+    "postcss-modules": "1.4.1",
+    "rimraf": "2.6.3"
+  },
+  "scripts": {
+    "start": "parcel mix2.html",
+    "build": "rimraf dist && parcel build mix2.html --public-url ./"
+  },
+  "author": "Kadzuya Okamoto",
+  "license": "MIT"
+}
